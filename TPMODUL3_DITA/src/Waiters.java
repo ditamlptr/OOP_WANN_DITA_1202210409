@@ -1,7 +1,7 @@
 public class Waiters implements Runnable{
     private final int customerID;
     private final int orderQty;
-    static int foodPrice = 40000;
+    static int foodPrice = 25000;
 
     public Waiters(int customerID, int orderQty){
         this.customerID = customerID;
